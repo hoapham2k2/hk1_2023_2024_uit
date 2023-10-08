@@ -1,5 +1,5 @@
 # Activity và Activity Lifecycle
-
+> [My Github Page link](https://github.com/hoapham2k2/hk1_2023_2024_uit/tree/main/phattrienungdungdidong/activity-lifecycle)
 ## 1. Activity là gì
 
 Lớp Activity là thành phần cơ bản của một ứng dụng Android. Nó cung cấp giao diện người dùng cho ứng dụng.
