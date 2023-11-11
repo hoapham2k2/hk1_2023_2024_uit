@@ -37,17 +37,19 @@ Có 2 thành phần chính của mô hình use case:
 
 ### 3.1 Include
 
-- Include là một quan hệ giữa các use case, trong đó một use case bao gồm một use case khác.
+- Include là một quan hệ cho rằng 1 use case phụ thuộc vào một use case khác. Nếu use case A bao gồm use case B, thì use case A không thể thực hiện được nếu không có use case B.
+
+- Ví dụ: use case `Mua sản phẩm` bao gồm use case `Thanh toán`. Khi người dùng mua sản phẩm, nếu không thanh toán thì không thể mua sản phẩm được.
 
 - Include được ký hiệu bằng mũi tên có đầu mũi tên hình tam giác, mũi tên này chỉ từ use case bao gồm đến use case được bao gồm.
-
-- Include được sử dụng khi một use case có thể bao gồm một use case khác.
 
 ![image](public/usecase_include.png)
 
 ### 3.2 Extend
 
-- Extend là một quan hệ giữa các use case, trong đó một use case mở rộng một use case khác.
+- Extend là một quan hệ cho rằng 1 use case có thể mở rộng một use case khác. Nếu use case A mở rộng use case B, thì use case A có thể thực hiện được mà không cần use case B.
+
+- Ví dụ: use case `Đăng nhập` mở rộng use case `Quên mật khẩu`. Khi người dùng đăng nhập, nếu người dùng không quên mật khẩu thì vẫn có thể đăng nhập được.
 
 - Extend được ký hiệu bằng mũi tên có đầu mũi tên hình tam giác, mũi tên này chỉ từ use case mở rộng đến use case được mở rộng.
 
